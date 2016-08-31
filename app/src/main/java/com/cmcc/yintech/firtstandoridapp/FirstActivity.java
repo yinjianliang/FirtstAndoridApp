@@ -26,6 +26,9 @@ public class FirstActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+
+        android.widget.Toast.makeText(FirstActivity.this, "nihao china!", Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -34,7 +37,7 @@ public class FirstActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_first, menu);
         return true;
 
-        
+
     }
 
     @Override
